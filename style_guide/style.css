@@ -7,7 +7,7 @@
     --h4: calc(var(--h5) * var(--scale));
     --h5: calc(var(--h6) * var(--scale));
     --h6: var(--base-size);
-    
+
 
     --lime: #a4ffa2;
     --magenta: #f47dda;
@@ -15,16 +15,20 @@
     --white: #ffffff;
     --tan: #cec5b4;
     --teal: #2e6d81;
+    --vanilla: #f1e3d3;
     --cyan: #7de6f4;
     --black: #050d14;
-    
+
 
     --sans-serif: "Poppins", sans-serif;
-  }
-  html {
+}
+
+html {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
+}
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
-  
+}
