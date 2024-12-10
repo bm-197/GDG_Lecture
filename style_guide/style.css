@@ -10,16 +10,22 @@
 
 
     --lime: #a4ffa2;
+    --green: #333d29;
+    --coffee:#43281c;
     --magenta: #f47dda;
     --magenta50: #f47dda80;
     --white: #ffffff;
+    --mocha: #7f4724;
     --tan: #cec5b4;
     --teal: #2e6d81;
+    --lemon:#fbf2c0;
     --vanilla: #f1e3d3;
     --cyan: #7de6f4;
     --black: #050d14;
+    --blue: #3e80b5;
 
-
+    --decorative: "Montserrat", sans-serif;
+    --sans: "Open Sans", sans-serif;
     --sans-serif: "Poppins", sans-serif;
 }
 
