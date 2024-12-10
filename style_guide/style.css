@@ -1,5 +1,5 @@
-:root {
-    --base-size: 1rem;
+:root { /* sudo class that refers to the root element typically <html> but has higher precedence*/
+    --base-size: 1rem; /* default 1rem = 16px */
     --scale: 1.25;
     --h1: calc(var(--h2) * var(--scale));
     --h2: calc(var(--h3) * var(--scale));
@@ -7,6 +7,9 @@
     --h4: calc(var(--h5) * var(--scale));
     --h5: calc(var(--h6) * var(--scale));
     --h6: var(--base-size);
+    --lg: calc(var(--scale) * var(--h1))
+    /* cal xl here */
+    --small: calc(var(--base-size) / var(--scale))
 
 
     --lime: #a4ffa2;
@@ -27,6 +30,7 @@
     --decorative: "Montserrat", sans-serif;
     --sans: "Open Sans", sans-serif;
     --sans-serif: "Poppins", sans-serif;
+    --radius: 5px;
 }
 
 html {
@@ -37,4 +41,6 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+    /* allow us to include margin and padding with width of and height of elemtn */
 }
+
